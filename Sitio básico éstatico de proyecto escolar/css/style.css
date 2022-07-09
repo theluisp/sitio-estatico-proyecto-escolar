@@ -1,0 +1,130 @@
+
+
+@font-face {
+    font-family: 'LEMONMILK-Regular';
+    src: url('../font/LEMONMILK-Regular.otf');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+body{
+font-family: 'LEMONMILK-Regular';
+background-color: black;
+
+}
+.menu{
+  color:white;
+  cursor:pointer; 
+}
+
+.container {
+    padding: 1em;
+    background: #ddd;
+
+  }
+
+  
+h1,h2,h3,h4,h5{
+color:white;
+}
+.wallf{
+    width: 50vw;  /*UNIDADES RELATIVAS AL PUERTO*/
+}
+#wall{
+    margin-top:5%;
+    margin-left:25%;
+    z-index: -1;
+}
+#acercade{
+    margin-left:25%;
+    z-index: -1;
+}
+
+div p{ font-family: 'LEMONMILK-Regular';
+    color: white;
+}
+
+  ul + li {
+    
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'LEMONMILK-Regular';
+}
+.nav{
+    background: #000;
+    height: 5vw; /*UNIDADES RELATIVAS AL PUERTO*/
+}
+
+.nav li{
+    display: inline-block;
+    list-style: none;
+    height: 6vw;/*UNIDADES RELATIVAS AL PUERTO*/
+    line-height: 8vw;/*UNIDADES RELATIVAS AL PUERTO*/
+    padding: 0 6vw;/*UNIDADES RELATIVAS AL PUERTO*/
+}
+
+
+.nav li:hover{
+    background: red;
+    transition: background .3s;
+}
+
+
+
+a:link{
+    color: #fff;
+}
+
+a:active {
+  color:black;
+  }
+
+
+
+  p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+  }
+
+.nav-link {
+
+  text-decoration: none;
+}
+
+
+footer{ background: red;
+    padding-top: 5vw;/*UNIDADES RELATIVAS AL PUERTO*/
+    padding-bottom: 8vw;/*UNIDADES RELATIVAS AL PUERTO*/
+
+}
+
+
+
+.rounded-social-buttons > .social-button {
+    display: inline-block;
+    cursor: pointer;
+    width: 10%;
+    height: 2%;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    font-weight: normal;
+    line-height: 2%;
+    border-radius: 10%;
+    transition: all 0.5s ease;
+
+  }
+  .rounded-social-buttons  {
+  text-align: center;
+}
+  
+.imagescss{
+  display: inline-block; 
+  width:40vw;/*UNIDADES RELATIVAS AL PUERTO*/
+}

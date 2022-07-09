@@ -1,0 +1,25 @@
+{
+"escuderia":[
+{
+"subtitulo":"Aquí encontraras toda la información relacionada con la escuderia"
+},
+
+{
+"titulo": "Sobre nosotros",
+"subtitulo": "Nuestros corredores", 
+"corredor":"Charles Lecrec",
+"corredor2":"Carlos Sainz",
+"sub-info": "Conoce nuestro nuevo bolido para la temporada 2022"
+}
+,
+{
+"titulo":"Galería"
+}
+,
+{
+"titulo":"Contacto"
+}
+]
+
+}
+

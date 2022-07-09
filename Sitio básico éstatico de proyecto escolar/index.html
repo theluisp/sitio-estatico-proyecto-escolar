@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Escuderia Ferrari</title>  
+<!-- UNIDADES RELATIVAS AL VIEWPORT -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+</head>
+
+<style>
+/*IMPLEMENTACIÓN DE MEDIA QUERY*/
+@media (max-width: 1020px)  { 
+    #wall{
+        margin-top:20%;
+   
+    }
+    #responsive-title{
+        font-size: 2;
+    }
+
+
+
+ }
+</style>
+
+   <body><div class="menu" id="menu" onclick="myFunction()"><h2 id="h22"></h2></div>
+
+    <div class="nav" id="nav" style="display: none;">
+        <ul>
+          <a href="#home" class="nav-link" title="Home"
+          ><li>Home</li></a>
+         <a href="#about2" class="nav-link"  title="sobre nosotros"
+         ><li>Sobre nosotros</li></a>
+        <a href="#about" class="nav-link"  title="Galeria"
+        ><li>Galería</li></a>
+          <a href="#contacto" class="nav-link"  title="Contacto"
+          ><li>Contacto</li></a>
+        </ul>
+      </div>
+      <section id="home">
+       <div id="wall">
+           <h1>Escuderia Ferrari</h1>
+              <h4 id="salida">
+           </h4>
+         
+           <img src="img/wall.jpg" alt="logo ferrari" class="wallf">
+       </div>
+      </section>
+
+ <section id="about2"><div id="acercade"><h1 id="salida1"></h1>
+<h3 id="salida2"></h3>
+
+<div style="display: inline-block;"><img alt="charles" src="img/charles.jpg" class="imagescss" ><h3 id="salida3"></h3></div>
+<div style="display: inline-block;"><img alt="Carlos Sainz" src="img/sainz.jpg" class="imagescss" ><h3 id="salida4"></h3></div>
+<div id="responsive-title" style="display: inline-block;"><img src="img/f175.webp" style="width:60vw;"><h3 id="salida5"></h3>
+<br><p style="color: white" id="parrafoJSON">CUBIC CAPACITY
+    1600 cc<br>
+    MAXIMUM RPM
+    15,000<br>
+    SUPERCHARGING
+    Single turbocharger<br>
+    MAXIMUM FUEL FLOW RATE
+    100 kg/hr<br>
+    CONFIGURATION
+    90° V6</p>
+</div></section></div>
+<section id="about"><div  id="acercade"><h1>Galería</h1>
+    <div style="display: inline-block;"><img src="img/im1.jpg" alt="galeria1" style="display: inline-block; width:30vw;"><img src="img/im2.jpg" alt="galeria2" style="display: inline-block; width:25.5vw; padding-left: 60px;"></div>
+    <div style="display: inline-block;"><img src="img/im3.jpg" alt="galeria3"style="display: inline-block; width:30vw;"><img src="img/im4.jpg" alt="galeria4" style="display: inline-block; width:25.5vw; padding-left: 60px;"></div>
+</div></section><br><br><br>
+<section id="contacto"><div id="acercade"> <h1>Contacto</h1></div>
+     <footer>
+        <div class="rounded-social-buttons">
+                          <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                          <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                          <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                          <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                          <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      </div>
+      </footer>
+</section>
+
+</body>
+</html>
+<script type="text/javascript" src="js/main.js"></script>
+
+
+<script>
+var json={
+
+
+"subtitulo":"Aquí encontraras toda la información relacionada con la escuderia",
+
+"titulo1": "Sobre nosotros",
+"subtitulo1": "Nuestros corredores", 
+"corredor":"Charles Lecrec",
+"corredor2":"Carlos Sainz",
+"subinfo": "Conoce nuestro nuevo bolido para la temporada 2022",
+
+
+}
+
+var output = document.getElementById('salida');
+
+var output1 = document.getElementById('salida1');
+
+var output2 = document.getElementById('salida2');
+
+var output3 = document.getElementById('salida3');
+
+var output4 = document.getElementById('salida4');
+
+var output5 = document.getElementById('salida5');
+output.innerHTML=json.subtitulo;
+output1.innerHTML=json.titulo1;
+output2.innerHTML=json.subtitulo1;
+output3.innerHTML=json.corredor;
+output4.innerHTML=json.corredor2;
+output5.innerHTML=json.subinfo;
+
+
+
+</script>
+
